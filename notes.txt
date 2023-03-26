@@ -1,0 +1,17 @@
+1. We have to combine both train and test dataset (in kaggle competitions as well) after reading them so that we can perform the operations on both the dataset at the same time. 
+2. The frame.append() method is deprecated and will be removed from the pandas in the future version. Use pandas.concat() instead.
+3. axis = 0 --> horizontal, axis = 1 --> vertical
+4. drop_first = True --> it helps in reducing the extra column created during dummy variable creation. Hence it reduces the correlations created among dummy variables.
+5. In the categorical feature or discrete feature, the best way to replace missing values is by using 'mode'. Do not use mean.
+6. uint8 is an 8-bit integer (ranges from 0 to 256 decimal).
+7. 
+
+
+
+
+
+
+
+
+
+
